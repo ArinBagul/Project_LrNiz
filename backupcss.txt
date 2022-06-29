@@ -1,0 +1,31 @@
+
+/* Hover card for Enterprise solution */
+.enterprise-solution-hovercard:hover .enterprise-solution::before {
+    content: '1. Faster development with latest technologies 2. Cloud based secure solutions 3. Robust, Scalable, Innovative and Adaptable software solutions 4. Extensive Analytics and research';
+    position: absolute;
+    top: -250px;
+    left: 0;
+    /* right: -100px; */
+    background-color: #2b2d42b9;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    box-shadow: var(--dark) 0px 0px 5px;
+}
+
+/* Hover card for Product Development */
+.product-development-hovercard:hover .product-development::before {
+    content: '1. Defining Product Ideas 2. Brainstorming and Discussions 3. Developing Proof of Concept (POC) 4. Designing Architecture 5. Development 6. Deployment 7. Enhancements 8. Maintenance activities; We are specialized and well experienced across major domains like e-commerce, Banking & Finance, Education, and Healthcare';
+    position: absolute;
+    top: -250px;
+    left: 0;
+    /* right: -100px; */
+    background-color: #2b2d42b9;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    width: 400px;
+    box-shadow: var(--dark) 0px 0px 5px;
+}
